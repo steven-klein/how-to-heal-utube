@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "1f533d2fdc40493ee834dd8e4288220c",
-    "url": "/how-to-heal-utube/img/theme/angular.jpg"
+    "revision": "d136a071cf09ba5ab8dc2ada1ab04015",
+    "url": "/how-to-heal-utube/img/theme/bootstrap.jpg"
   },
   {
     "revision": "5ab25ae383af4221c6859a63dae69b20",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/fonts/nucleo-icons.f82ec6ba.ttf"
   },
   {
-    "revision": "d136a071cf09ba5ab8dc2ada1ab04015",
-    "url": "/how-to-heal-utube/img/theme/bootstrap.jpg"
+    "revision": "1f533d2fdc40493ee834dd8e4288220c",
+    "url": "/how-to-heal-utube/img/theme/angular.jpg"
   },
   {
     "revision": "cee60cfd101f9b3d2aae0e819ec8b267",
