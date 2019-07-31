@@ -1,0 +1,126 @@
+//
+// Components
+//
+
+@import "custom/alert";
+@import "custom/avatar";
+@import "custom/badge";
+@import "custom/buttons";
+@import "custom/card";
+@import "custom/chart";
+@import "custom/close";
+@import "custom/content";
+@import "custom/custom-forms";
+@import "custom/dropdown";
+@import "custom/footer";
+@import "custom/forms";
+@import "custom/header";
+@import "custom/icons";
+@import "custom/input-group";
+@import "custom/list-group";
+@import "custom/map";
+@import "custom/mask";
+@import "custom/modal";
+@import "custom/nav";
+@import "custom/navbar";
+@import "custom/pagination";
+@import "custom/popover";
+@import "custom/progress";
+@import "custom/separator";
+@import "custom/tables";
+@import "custom/type";
+
+.video-unit {
+    padding-bottom: 56.25%;
+    background: url(../video-poster.jpg) no-repeat center center scroll #000; 
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5));
+    }
+}
+
+.video-unit-next,
+.video-unit-title,
+.video-unit-play {
+    position: absolute;
+    color: #fff;
+}
+
+.video-unit-title {
+    top: 0;
+    left: 0;
+}
+
+.video-unit-next {
+    top: 0;
+    right: 0;
+}
+
+.video-unit-play {
+    border: .15rem solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: .65rem;
+    text-align: center;
+}
+
+.navbar-search {
+    min-width: 60%;
+}
+
+.navbar-search .form-control {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    height: calc(1em + .75rem + 2px);
+    width: auto;
+}
+
+.navbar-search .form-group {
+    min-width: 100%;
+}
+
+.navbar-search .input-group .input-group-text {
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
+}
+
+.navbar-search-light .input-group {
+    border-color: lightgray;
+    box-shadow: none;
+    border-width: .065rem;
+}
+
+.navbar {
+    padding-top: .5rem;
+    padding-bottom: .5rem;   
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.20);
+}
+
+.navbar-vertical.navbar-expand-md {
+    max-width: 200px;
+    background: #fafeff;
+}
+@media (min-width: 768px) {
+    .navbar-vertical.navbar-expand-md.fixed-left + .main-content {
+        margin-left: 200px;
+    }
+}
+
+.navbar-brand .fa {
+    font-size: .85em;
+}
+
+.card-header {
+    padding: .75rem 1.5rem;
+}
