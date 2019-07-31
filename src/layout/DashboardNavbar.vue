@@ -23,7 +23,7 @@
           </ul>
           <ul class="navbar-nav align-items-center d-none d-md-flex">
               <li class="nav-item dropdown">
-                  <base-dropdown class="pr-0">
+                  <base-dropdown class="pr-0" position="right">
                       <div class="media align-items-center" slot="title">
                         <i class="fa fa-user-circle"></i>
                           <!--<span class="avatar avatar-sm rounded-circle">
@@ -35,9 +35,25 @@
                       </div>
 
                       <template>
-                          <div class=" dropdown-header noti-title">
-                              <h6 class="text-overflow m-0">Welcome!</h6>
+                          <div class="dropdown-setters dropdown-header noti-title">
+                              <p>                                
+                                <small>Use the tab button to get into these fields!  Clicking the fields will close the menu.</small>
+                              </p>
+                              <p>                                
+                                <small>Type the value exactly as you want it to appear.  Ex: 1,000 or 1.4M</small>
+                              </p>
+                              <div class="dropdown-divider"></div>
+                              <p>
+                                <label>Subscriber Count</label>
+                                <input :value="subscriber_count" @input="setSubscriberCount">
+                              </p>
+                              <div class="dropdown-divider"></div>
+                              <p>
+                                <label>Ciews Count</label>
+                                <input :value="views_count" @input="setViewsCount">
+                              </p>
                           </div>
+                          <!--
                           <router-link to="/profile" class="dropdown-item">
                               <i class="ni ni-single-02"></i>
                               <span>My profile</span>
@@ -54,11 +70,11 @@
                               <i class="ni ni-support-16"></i>
                               <span>Support</span>
                           </router-link>
-                          <div class="dropdown-divider"></div>
                           <router-link to="/profile" class="dropdown-item">
                               <i class="ni ni-user-run"></i>
                               <span>Logout</span>
                           </router-link>
+                          -->
                       </template>
                   </base-dropdown>
               </li>
@@ -67,6 +83,7 @@
     </base-nav>
 </template>
 <script>
+  import {mapState} from 'vuex'
   export default {
     data() {
       return {
@@ -74,6 +91,12 @@
         showMenu: false,
         searchQuery: ''
       };
+    },
+    computed: {
+      ...mapState({
+        subscriber_count: state => state.subscriber_count,
+        views_count: state => state.views_count
+      })
     },
     methods: {
       toggleSidebar() {
@@ -84,7 +107,13 @@
       },
       toggleMenu() {
         this.showMenu = !this.showMenu;
-      }
+      },
+      setSubscriberCount(e) {
+        this.$store.commit('set_subscriber_count', e.target.value)
+      },
+      setViewsCount(e) {
+        this.$store.commit('set_views_count', e.target.value)
+      },
     }
   };
 </script>

@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d136a071cf09ba5ab8dc2ada1ab04015",
-    "url": "/how-to-heal-utube/img/theme/bootstrap.jpg"
+    "revision": "1f533d2fdc40493ee834dd8e4288220c",
+    "url": "/how-to-heal-utube/img/theme/angular.jpg"
   },
   {
     "revision": "5ab25ae383af4221c6859a63dae69b20",
     "url": "/how-to-heal-utube/img/theme/profile-cover.jpg"
   },
   {
-    "revision": "3b212a1446ed94c4231c",
-    "url": "/how-to-heal-utube/js/chunk-vendors.1d9a3a23.js"
+    "revision": "b9ca047b8b49617db248",
+    "url": "/how-to-heal-utube/js/chunk-vendors.c4ad2834.js"
   },
   {
-    "revision": "634c87b6c6471b3d286b",
-    "url": "/how-to-heal-utube/js/demo.0655c2e9.js"
+    "revision": "73ba2a9e805a50608812",
+    "url": "/how-to-heal-utube/js/demo.b0e8f7d7.js"
   },
   {
     "revision": "be997d5226b992ffad34816870c6b7aa",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/img/video-poster.5ab25ae3.jpg"
   },
   {
-    "revision": "1042200b67d8ea5c1aa4e08dbca16ebd",
+    "revision": "b46f1d590134714027d03937499f0d1f",
     "url": "/how-to-heal-utube/index.html"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/img/theme/sketch.jpg"
   },
   {
-    "revision": "e7dad2af8b6e3f11e31a",
-    "url": "/how-to-heal-utube/js/app.28741f21.js"
+    "revision": "7f33b86c53b608de395e",
+    "url": "/how-to-heal-utube/js/app.b358a0a0.js"
   },
   {
     "revision": "50dd5fdc839dfc16739b15370650485c",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/fonts/nucleo-icons.f82ec6ba.ttf"
   },
   {
-    "revision": "1f533d2fdc40493ee834dd8e4288220c",
-    "url": "/how-to-heal-utube/img/theme/angular.jpg"
+    "revision": "d136a071cf09ba5ab8dc2ada1ab04015",
+    "url": "/how-to-heal-utube/img/theme/bootstrap.jpg"
   },
   {
     "revision": "cee60cfd101f9b3d2aae0e819ec8b267",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/fonts/nucleo-icons.2569aaea.woff"
   },
   {
-    "revision": "e7dad2af8b6e3f11e31a",
-    "url": "/how-to-heal-utube/css/app.8056cf92.css"
+    "revision": "7f33b86c53b608de395e",
+    "url": "/how-to-heal-utube/css/app.e1971fcd.css"
   }
 ];

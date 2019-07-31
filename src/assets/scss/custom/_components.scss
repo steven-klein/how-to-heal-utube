@@ -104,12 +104,14 @@
 .navbar {
     padding-top: .5rem;
     padding-bottom: .5rem;   
-    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 .1rem .15rem 0 rgba(0, 0, 0, 0.15);
 }
 
 .navbar-vertical.navbar-expand-md {
     max-width: 200px;
     background: #fafeff;
+    box-shadow: .05rem 0 0 0 rgba(0, 0, 0, .15) !important;
+    z-index: 1000;
 }
 @media (min-width: 768px) {
     .navbar-vertical.navbar-expand-md.fixed-left + .main-content {
@@ -123,4 +125,21 @@
 
 .card-header {
     padding: .75rem 1.5rem;
+}
+
+.dropdown-setters{
+    font-size: .85rem;
+    text-transform: none;
+    color: $gray-dark;
+}
+
+.dropdown-setters label,
+.dropdown-setters input {
+    display: block;
+}
+
+.dropdown-setters label {
+    font-size: .85rem;
+    text-transform: none;
+    color: $gray-dark;
 }

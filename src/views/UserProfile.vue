@@ -199,7 +199,7 @@
                                             </span>
                                             <div class="media-body ml-2 d-lg-block">
                                                 <h3 class="mb-0">Honey, You Broken</h3>
-                                                <h5 class="mb-0">112 subscribers</h5>
+                                                <h5 class="mb-0">{{subscriber_count}} subscribers</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +223,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <h1 class="mb-0">Fear of Clowns</h1>
-                                <h4>1,321 views</h4>
+                                <h4>{{views_count}} views</h4>
                                 <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sem ante, ornare non posuere sit amet, rutrum quis velit. Nulla.</p>
                             </div>
                         </div>
@@ -281,6 +281,14 @@
         }
       }
     },
+    computed: {
+        subscriber_count() {
+            return this.$store.state.subscriber_count
+        },
+        views_count() {
+            return this.$store.state.views_count
+        }
+    }
   };
 </script>
 <style></style>
