@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/img/video-poster.5ab25ae3.jpg"
   },
   {
-    "revision": "1188a06106feac32d259fb3fa70f865c",
+    "revision": "d4bb34c080bb9f7faa409efca6c3bbff",
     "url": "/how-to-heal-utube/index.html"
   },
   {
