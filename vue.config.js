@@ -3,7 +3,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   outputDir: './docs',
-  publicPath: isProd ? "/vue-argon-dashboard/" : "",
+  publicPath: isProd ? "/how-to-heal-utube/" : "",
   configureWebpack: {
     // Set up all the aliases we use in our app.
     plugins: [
@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'Vue Argon Dashboard',
+    name: 'uTube - How To Heal',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',
