@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "d136a071cf09ba5ab8dc2ada1ab04015",
-    "url": "/how-to-heal-utube/img/theme/bootstrap.jpg"
+    "revision": "50dd5fdc839dfc16739b15370650485c",
+    "url": "/how-to-heal-utube/img/theme/react.jpg"
   },
   {
     "revision": "5ab25ae383af4221c6859a63dae69b20",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/img/theme/team-3-800x800-old.jpg"
   },
   {
-    "revision": "edc7106b21ec12e57022b2ebd534cd2d",
-    "url": "/how-to-heal-utube/img/theme/team-1-800x800-old.jpg"
-  },
-  {
     "revision": "66618a418175ddf2ac8c47a241d327a8",
     "url": "/how-to-heal-utube/img/theme/team-4-800x800-old.jpg"
+  },
+  {
+    "revision": "edc7106b21ec12e57022b2ebd534cd2d",
+    "url": "/how-to-heal-utube/img/theme/team-1-800x800-old.jpg"
   },
   {
     "revision": "d303aeb005cd2010bd6e2770540d5803",
@@ -60,24 +60,24 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/js/app.b358a0a0.js"
   },
   {
-    "revision": "50dd5fdc839dfc16739b15370650485c",
-    "url": "/how-to-heal-utube/img/theme/react.jpg"
+    "revision": "c1733565b32b585676302d4233c39da8",
+    "url": "/how-to-heal-utube/fonts/nucleo-icons.c1733565.eot"
   },
   {
-    "revision": "f82ec6ba2dc4181db2af35c499462840",
-    "url": "/how-to-heal-utube/fonts/nucleo-icons.f82ec6ba.ttf"
-  },
-  {
-    "revision": "1f533d2fdc40493ee834dd8e4288220c",
-    "url": "/how-to-heal-utube/img/theme/angular.jpg"
+    "revision": "d136a071cf09ba5ab8dc2ada1ab04015",
+    "url": "/how-to-heal-utube/img/theme/bootstrap.jpg"
   },
   {
     "revision": "cee60cfd101f9b3d2aae0e819ec8b267",
     "url": "/how-to-heal-utube/img/theme/profile-cover-old.jpg"
   },
   {
-    "revision": "576dfa3348571261db6040259f29e9c2",
+    "revision": "5cb4e82aceb3bc31aee9f2578b26ca9c",
     "url": "/how-to-heal-utube/img/theme/channel-icon.png"
+  },
+  {
+    "revision": "1f533d2fdc40493ee834dd8e4288220c",
+    "url": "/how-to-heal-utube/img/theme/angular.jpg"
   },
   {
     "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/how-to-heal-utube/img/brand/favicon.png"
   },
   {
-    "revision": "c1733565b32b585676302d4233c39da8",
-    "url": "/how-to-heal-utube/fonts/nucleo-icons.c1733565.eot"
+    "revision": "f82ec6ba2dc4181db2af35c499462840",
+    "url": "/how-to-heal-utube/fonts/nucleo-icons.f82ec6ba.ttf"
   },
   {
     "revision": "426439788ec5ba772cdf94057f6f4659",

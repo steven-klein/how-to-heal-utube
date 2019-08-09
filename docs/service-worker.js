@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/how-to-heal-utube/precache-manifest.23e2ed069a33fcadfdc643a44e16e3e1.js"
+  "/how-to-heal-utube/precache-manifest.aaada591f6111e8ccda3c744cdb61e9b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-argon-dashboard"});
